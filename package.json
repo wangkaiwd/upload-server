@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/wangkaiwd/upload-server#readme",
   "dependencies": {
+    "@koa/cors": "^3.1.0",
     "@koa/multer": "^3.0.0",
     "@koa/router": "^9.4.0",
     "koa": "^2.13.0",
+    "koa-static": "^5.0.0",
     "multer": "^1.4.2"
   }
 }
