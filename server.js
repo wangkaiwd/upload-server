@@ -11,7 +11,7 @@ const app = new Koa();
 const PORT = process.env.PORT || 3000;
 const router = new Router();
 const upload = multer({ dest: 'uploads' });
-app.use(serve('uploads'));
+app.use(serve('.'));
 app.use(cors());
 app.use(router.routes());
 app.use(router.allowedMethods());
