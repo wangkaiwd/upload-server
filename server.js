@@ -7,7 +7,7 @@ const serve = require('koa-static');
 const app = new Koa();
 
 
-// deploy to heroku will user environment variable
+// deploy to heroku will use environment variable
 const PORT = process.env.PORT || 3000;
 const router = new Router();
 const upload = multer({ dest: 'uploads' });
